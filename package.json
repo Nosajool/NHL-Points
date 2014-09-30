@@ -1,10 +1,10 @@
 {
-  "name": "trade-Rumors-and-free-agency-talk",
+  "name": "nhl-leaders",
   "version": "0.0.1",
-  "description": "view trade rumor threads",
+  "description": "nhl points leaders",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Nosajool/NHL-Trade-Rumors"
+    "url": "https://github.com/Nosajool/NHL-Points"
   },
   "engines": {
     "node": "0.10.21",

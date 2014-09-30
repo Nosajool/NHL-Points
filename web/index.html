@@ -2,13 +2,13 @@
 <html manifest="manifest.appcache">
 	<head>
 		<!-- App info -->
-		<title>NHL Trade Rumors and Free Agent Talk</title>
+		<title>NHL Leaders</title>
 		<meta charset="utf-8">
-		<meta name="description" content="Latest NHL Trade Rumors and Free Agent Talk from HF Boards using the Kimonolabs API">
+		<meta name="description" content="NHL Point Leaders using the Kimonolabs API">
 		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 		<meta name="kik-prefer" content="true">
 		<link rel="kik-icon" href="/img/icon.png">
-		<link rel="canonical" href="http://trade-rumors.herokuapp.com">
+		<link rel="canonical" href="http://nhl-points.herokuapp.com">
 
 		<!-- Styles -->
 		<link rel="stylesheet" href="/css/app.min.css">
@@ -20,11 +20,12 @@
 
 		<div class="app-page home-page" data-page="home">
 			<div class="app-topbar dark-blue">
-				<div class="app-title">NHL Trade Rumors</div>
+				<div class="app-title">NHL Leaders</div>
 			</div>
 			<div class="app-content">
 				<div class="app-section">
-					<ul class="app-list" id="thread-list"></ul>
+					<div id="loading">Loading Stats...</div>
+					<ul class="app-list" id="player-list"></ul>
 				</div>
 			</div>
 		</div>
